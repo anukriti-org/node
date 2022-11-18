@@ -1,8 +1,8 @@
 openapi: '3.0.0'
 info:
   version: '1.0.0'
-  title: 'Sample API'
-  description: Buy or rent spacecrafts
+  title: 'My Sample API'
+  description: Buy or rent spacecrafts toys
 
 paths:
   /spacecrafts/{spacecraftId}:
@@ -66,7 +66,7 @@ components:
         - message
       properties:
         message:
-          description: A human readable error message
+          description: A human readable error message that can define the exact error
           type: string
   securitySchemes:
     ApiKey:
